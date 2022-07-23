@@ -41,7 +41,7 @@ body {
 }
 
 
-.card {
+.herosection .card {
     background-color: #1f2937;
     color: bisque;
     width: 600px;
@@ -66,7 +66,7 @@ body {
     margin-right: 20px;
 }
 
-button {
+.herosection button {
     background-color: #3882f6;
     padding: 8px 44px;
     font-size: 22px;
@@ -172,4 +172,48 @@ button {
     font-size: 24px;
     text-align: end;
     margin: 0 560px;
+}
+
+.action-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.card.blue {
+    width: 1200px;
+    height: 150px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.sub-card-blue {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    padding: 0 100px;
+}
+
+.action-call {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.sub-action {
+    color: #f9faf8;
+    font-size: 20px;
+}
+
+.action-section button {
+    background-color: #3882f6;
+    padding: 8px 44px;
+    font-size: 22px;
+    font-weight: bold;
+    color:#efe7eb;
+    border-radius: 10px;
+    border: 3px solid #efe7eb;
 }
